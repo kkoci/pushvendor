@@ -8,7 +8,7 @@ gem 'will_paginate-bootstrap'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.1.1'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '2.7.2'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -25,10 +25,14 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'debugger'
+  gem 'byebug'
 end
 
 group :test do
   gem 'capybara'
   gem 'rspec-rails'
 end  
+
+# angular
+gem 'angularjs-rails'
+gem 'angular-ui-bootstrap-rails'
